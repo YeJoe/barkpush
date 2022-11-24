@@ -95,7 +95,7 @@ const clearable = async () => {
 const BarkPush = async () => {
   let config = {
     title: "Bark-RTMP",
-    body: encodeURIComponent(rtmpUrl.value),
+    body: rtmpUrl.value,
     device_key: "",
     url: "",
     sound: "",
